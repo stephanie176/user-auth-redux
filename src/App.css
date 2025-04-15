@@ -1,11 +1,33 @@
+body {
+  background-color: rgb(105, 154, 245);
+  
+}
+
 form {
+  border-radius: 3px;
   display: flex;
   flex-direction: column;
   width: 300px;
   margin: 40px auto;
 }
 
-input, button {
+input{
+  border-radius: 4px;
   margin: 10px 0;
   padding: 10px;
+}
+
+button {
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.dashboard-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  height: 100vh;           /* take full height of the viewport */
+  text-align: center;      /* optional: center text inside the element */
 }

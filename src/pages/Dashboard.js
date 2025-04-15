@@ -7,7 +7,7 @@ const Dashboard = () => {
   if (!user) return <p>No user logged in.</p>;
 
   return (
-    <div>
+    <div class="dashboard-info">
       <h2>Welcome, {user.firstName}!</h2>
       <p><strong>Name:</strong> {user.firstName} {user.lastName}</p>
       <p><strong>Email:</strong> {user.email}</p>
